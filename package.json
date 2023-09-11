@@ -3,7 +3,7 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "vue-tsc && vite build"
+        "build": "vite build"
     },
     "devDependencies": {
         "@arco-plugins/vite-react": "^1.3.3",
