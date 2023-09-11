@@ -23,7 +23,7 @@ import {
 } from "@arco-design/web-react";
 import { router } from "@inertiajs/react";
 
-export default function AuthenticatedNew({
+export default function AuthenticatedLayoutNew({
     user,
     header,
     children,
