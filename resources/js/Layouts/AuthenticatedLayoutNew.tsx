@@ -7,6 +7,7 @@ import {
     IconNotification,
     IconUser,
     IconPoweroff,
+    IconMenu,
 } from "@arco-design/web-react/icon";
 import { User } from "@/types";
 import {
@@ -62,6 +63,10 @@ export default function AuthenticatedLayoutNew({
                     <Menu.Item key="dashboard">
                         <IconHome />
                         Dashboard
+                    </Menu.Item>
+                    <Menu.Item key="menu.index">
+                        <IconMenu />
+                        Page Menu
                     </Menu.Item>
                 </Menu>
             </Layout.Sider>

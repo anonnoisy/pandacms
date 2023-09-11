@@ -8,6 +8,7 @@ use App\Http\Requests\Content\Menu\MenuUpdateRequest;
 use App\Models\Content\Menu;
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\DB;
+use Inertia\Inertia;
 
 class MenuController extends Controller
 {
@@ -19,6 +20,8 @@ class MenuController extends Controller
     public function index()
     {
         $menus = Menu::all();
+
+        return Inertia::render('Menu/Index');
     }
 
     /**
